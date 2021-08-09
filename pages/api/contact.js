@@ -21,7 +21,22 @@ async function ContactMail (req, res) {
 
     console.log(data)
 
-    await mail.send(data);
+    await mail.send(data).then(() => {
+        //Celebrate
+        console.log('Email Sent!');
+      })    
+      .catch(error => {
+    
+        //Log friendly error
+        console.error(error.toString());
+        console.log(output)
+    
+        //Extract error msg
+        // const {message, code, response} = error;
+    
+        //Extract response msg
+        // const {headers, body} = response;
+      });
 
     res.status(200).json({ status: 'OK' });
 };

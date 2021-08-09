@@ -14,20 +14,22 @@ function Services() {
                   <h2 className="h1">Our Services</h2>
               </div>
 
-              <Row className="m-0 flex-nowrap service-cards">
-                  <Col md="3" xs="9" sm="5" className="p-0">
-                    <ProjectManagement />
-                  </Col>
-                  <Col md="3" xs="9" sm="5" className="p-0">
-                    <SoftwareEngineering />
-                  </Col>
-                  <Col md="3" xs="9" sm="5" className="p-0">
-                    <PLCEngineering />
-                  </Col>
-                  <Col md="3" xs="9" sm="5" className="p-0">
-                    <ElectricalAssembly />
-                  </Col>
-              </Row>
+              <div className="service-cards h-100 position-relative">
+                <Row className="m-0 h-100 flex-nowrap">
+                    <Col md="3" xs="9" sm="5" className="h-100 p-0">
+                      <ProjectManagement />
+                    </Col>
+                    <Col md="3" xs="9" sm="5" className="h-100 p-0">
+                      <SoftwareEngineering />
+                    </Col>
+                    <Col md="3" xs="9" sm="5" className="h-100 p-0">
+                      <PLCEngineering />
+                    </Col>
+                    <Col md="3" xs="9" sm="5" className="h-100 p-0">
+                      <ElectricalAssembly />
+                    </Col>
+                </Row>
+              </div>
           </Container>
       </div>
     );

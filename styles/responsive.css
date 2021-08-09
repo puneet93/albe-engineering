@@ -68,7 +68,7 @@
         margin: 0 auto 85px;
     }
 
-    .service-modal .modal-header{
+    .service-popup .btn-service{
         top: 20px;
         right: 20px;
     }
@@ -140,11 +140,28 @@
     .section-title {
         margin-bottom: 12px;
     }
-    .btn-close{
-        background-color: #fff;
+    .service-popup .btn-service{
+        padding: 10px;
+        background-color: #EFEFEF !important;
+    }
+    .service-popup .btn-service {
+        top: 10px;
+        right: 10px;
     }
     .service-cards{
         overflow: auto;
+    }
+    .service-popup-image{
+        display: none;
+    }
+    .service-popup{
+        position: fixed;
+        height: auto;
+        top: 85px;
+        bottom: 0;
+    }
+    .navbar-toggler{
+        padding: 0;
     }
 }   
 
