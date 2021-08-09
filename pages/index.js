@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap';
 
 // assets
@@ -20,7 +21,7 @@ export default function Home() {
               <Link href="#contact-us"><a className="btn rounded-0 btn-cta">Get in Touch</a></Link>
             </Col>
             <Col lg="6" md="6" className="text-center">
-              <img src="/banner-image.png" className="home-banner-image" alt="image" />
+              <Image src="/banner-image.png" className="home-banner-image" width="486" height="492" alt="Picture" />
             </Col>
           </Row>
         </Container>
@@ -50,19 +51,19 @@ export default function Home() {
 
               <ul className="list-unstyled mb-0 address-list">
                 <li className="d-flex mb-4 align-items-center">
-                  <img src="/cell-icon.png" className="img-fluid" alt="icon" className="me-3" />
+                  <Image src="/cell-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">61 411234567</h6>
                 </li>
                 <li className="d-flex mb-4 align-items-center">
-                  <img src="/email-icon.png" className="img-fluid" alt="icon" className="me-3" />
+                  <Image src="/email-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">info@albeengineering.com.au</h6>
                 </li>
                 <li className="d-flex mb-4 align-items-center">
-                  <img src="/map-icon.png" className="img-fluid" alt="icon" className="me-3" />
+                  <Image src="/map-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">Sydney 2000 NSW</h6>
                 </li>
                 <li className="d-flex align-items-center">
-                  <img src="/clock-icon.png" className="img-fluid" alt="icon" className="me-3" />
+                  <Image src="/clock-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">Mon-Sat 9am-9pm</h6>
                 </li>
               </ul>

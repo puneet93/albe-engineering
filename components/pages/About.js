@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Container, Row, Col} from 'react-bootstrap';
 
 
@@ -9,7 +10,7 @@ function About() {
               <Row className="justify-content-between align-items-center">
                   <Col lg="5">
                       <div className="about-image">
-                          <img src="/about-image.png" className="img-fluid" srcSet="/about-image@2x.png" alt="about" />
+                          <Image src="/about-image.png" className="img-fluid" srcSet="/about-image@2x.png" width="890" height="666" alt="team" />
                       </div>
                   </Col>
                   <Col lg="6" className="mt-xl-5 mt-md-0 mt-3">

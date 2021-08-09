@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Image from 'next/image'
 import { Row, Col, Modal } from 'react-bootstrap';
 
 function SoftwareEngineering() {
@@ -7,7 +8,7 @@ function SoftwareEngineering() {
     return (
       <>
         <div className="service-card" onClick={() => setShow(true)}>
-            <img src="/Software.png" srcSet="/Software@2x.png" className="img-fluid" alt="project" />
+            <Image src="/Software.png" srcSet="/Software@2x.png" className="img-fluid" width="554" height="1028" alt="Picture" />
             <div className="service-card-overlay d-flex flex-column">
                 <h5>Software <br />Engineering</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>

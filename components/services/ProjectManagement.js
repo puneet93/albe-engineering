@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Image from 'next/image'
 import { Row, Col, Modal } from 'react-bootstrap';
 
 function ProjectManagement() {
@@ -7,14 +8,12 @@ function ProjectManagement() {
     return (
       <>
         <div className="service-card" onClick={() => setShow(true)}>
-            <img src="/project.png" srcSet="/project@2x.png" className="img-fluid" alt="project" />
+            <Image src="/project.png" srcSet="/project@2x.png" className="img-fluid" width="554" height="1028" alt="Picture" />
             <div className="service-card-overlay d-flex flex-column">
                 <h5>Project <br />Management</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 <span className="btn-link mt-auto"><img src="/arrow-right.png" alt="arrow" /> Read more</span>
             </div>
-
-
         </div>
 
         <Modal

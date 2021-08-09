@@ -221,6 +221,9 @@ button{
   position: relative;
   cursor: pointer;
 }
+.service-card > div{
+  display: block !important;
+}
 .service-card h5{
   letter-spacing: normal;
   min-height: 85px;
