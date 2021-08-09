@@ -51,19 +51,27 @@ export default function Home() {
 
               <ul className="list-unstyled mb-0 address-list">
                 <li className="d-flex mb-4 align-items-center">
-                  <Image src="/cell-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
+                  <div className="address-list-icon me-3">
+                    <Image src="/cell-icon.png" alt="icon" width="53" height="53" />
+                  </div>
                   <h6 className="mb-0 text-normal text-black font-weight-normal">61 411234567</h6>
                 </li>
                 <li className="d-flex mb-4 align-items-center">
-                  <Image src="/email-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
+                  <div className="address-list-icon me-3">
+                    <Image src="/email-icon.png" alt="icon" width="53" height="53" />
+                  </div>
                   <h6 className="mb-0 text-normal text-black font-weight-normal">info@albeengineering.com.au</h6>
                 </li>
                 <li className="d-flex mb-4 align-items-center">
-                  <Image src="/map-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
+                  <div className="address-list-icon me-3">
+                    <Image src="/map-icon.png" alt="icon" width="53" height="53" />
+                  </div>
                   <h6 className="mb-0 text-normal text-black font-weight-normal">Sydney 2000 NSW</h6>
                 </li>
                 <li className="d-flex align-items-center">
-                  <Image src="/clock-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
+                  <div className="address-list-icon me-3">
+                    <Image src="/clock-icon.png" alt="icon" width="53" height="53" />
+                  </div>
                   <h6 className="mb-0 text-normal text-black font-weight-normal">Mon-Sat 9am-9pm</h6>
                 </li>
               </ul>

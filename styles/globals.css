@@ -364,3 +364,8 @@ button{
   color: #848484;
   font-size: 15px;
 }
+.address-list-icon{
+  width: 53px;
+  height: 53px;
+  display: block;
+}
