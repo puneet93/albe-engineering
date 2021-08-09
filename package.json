@@ -10,10 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@sendgrid/mail": "^7.4.5",
-=======
->>>>>>> 542e649c145194fc95be9192c9575c66ff9c7f04
     "bootstrap": "^5.0.2",
     "next": "^11.0.1",
     "react": "^17.0.2",

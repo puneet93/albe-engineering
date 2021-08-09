@@ -121,7 +121,6 @@ h6{
   font-size: 24px;
 }
 
-<<<<<<< HEAD
 .btn-cta:hover, .btn-cta-blue, .btn-cta-blue:focus{
   background-color: var(--blue);
   color: var(--white);
@@ -132,7 +131,7 @@ h6{
   background-color: var(--primary);
   color: var(--dark);
   box-shadow: none;
-=======
+}
 .btn-cta:hover, .btn-cta-blue{
   background-color: var(--blue);
   color: var(--white);
@@ -141,7 +140,6 @@ h6{
 .btn-cta-blue:hover{
   background-color: var(--primary);
   color: var(--dark);
->>>>>>> 542e649c145194fc95be9192c9575c66ff9c7f04
 }
 
 .btn-link{

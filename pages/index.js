@@ -10,7 +10,6 @@ import ContactForm from '../components/ContactForm';
 export default function Home() {
   return (
     <>
-<<<<<<< HEAD
       <div className="home-banner text-white bg--gradient" id="home">
         <img src="/banner-overlay.png" className="home-banner-overlay" alt="overlay" />
         <Container>
@@ -21,18 +20,6 @@ export default function Home() {
               <Link href="#contact-us"><a className="btn rounded-0 btn-cta">Get in Touch</a></Link>
             </Col>
             <Col lg="6" md="6" className="text-center">
-=======
-      <div className="home-banner text-white bg--gradient">
-        <img src="/banner-overlay.png" className="home-banner-overlay" alt="overlay" />
-        <Container>
-          <Row className="justify-content-between">
-            <Col lg="5" md="6" className="pt-md-4">
-              <h4>We Manage</h4>
-              <h1>End-to-end <span>Robotic Engineering</span></h1>
-              <Link href="/"><a className="btn rounded-0 btn-cta">Get in Touch</a></Link>
-            </Col>
-            <Col lg="5" md="6" className="text-center">
->>>>>>> 542e649c145194fc95be9192c9575c66ff9c7f04
               <img src="/banner-image.png" className="home-banner-image" alt="image" />
             </Col>
           </Row>
@@ -45,12 +32,8 @@ export default function Home() {
 
       <Team />
 
-
-<<<<<<< HEAD
       <div className="py-100" id="contact-us">
-=======
-      <div className="py-100 pt-0">
->>>>>>> 542e649c145194fc95be9192c9575c66ff9c7f04
+
         <Container>
           <div className="section-title pb-4 text-center text-blue">
             <h2 className="h1">Any Question?</h2>
