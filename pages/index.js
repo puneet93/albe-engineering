@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="home-banner text-white bg--gradient" id="home">
-        <img src="/banner-overlay.png" className="home-banner-overlay" alt="overlay" />
+        <Image src="/banner-overlay.png" className="home-banner-overlay" layout="fill" alt="overlay" />
         <Container>
           <Row className="justify-content-between align-items-center">
             <Col lg="5" md="6" className="pt-md-4 pb-md-5">
@@ -51,19 +51,19 @@ export default function Home() {
 
               <ul className="list-unstyled mb-0 address-list">
                 <li className="d-flex mb-4 align-items-center">
-                  <Image src="/cell-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
+                  <Image src="/cell-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">61 411234567</h6>
                 </li>
                 <li className="d-flex mb-4 align-items-center">
-                  <Image src="/email-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
+                  <Image src="/email-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">info@albeengineering.com.au</h6>
                 </li>
                 <li className="d-flex mb-4 align-items-center">
-                  <Image src="/map-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
+                  <Image src="/map-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">Sydney 2000 NSW</h6>
                 </li>
                 <li className="d-flex align-items-center">
-                  <Image src="/clock-icon.png" className="img-fluid" alt="icon" className="me-3" width="53" height="53" />
+                  <Image src="/clock-icon.png" className="img-fluid me-3" alt="icon" width="53" height="53" />
                   <h6 className="mb-0 text-normal text-black font-weight-normal">Mon-Sat 9am-9pm</h6>
                 </li>
               </ul>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Container } from 'react-bootstrap';
 
 function Footer() {
@@ -14,7 +15,7 @@ function Footer() {
                 </ul>
 
                 <div className="py-md-4 py-3 mb-3">
-                    <img src="/logo-dark.svg" className="img-fluid" alt="logo" />
+                    <Image src="/logo-dark.svg" className="img-fluid" width="249" height="48" alt="logo" />
                 </div>
 
                 <p className="mb-0 copyright">Copyright © 2021 Albe Engineering - All rights reserved.</p>
