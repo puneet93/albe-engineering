@@ -3,7 +3,7 @@ mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 
 
-export default async (req, res) => {
+async const ContactMail = (req, res) => {
     const body = JSON.parse(req.body);
     const message = `
     Name: ${body.name}\r\n
@@ -25,3 +25,5 @@ export default async (req, res) => {
 
     res.status(200).json({ status: 'OK' });
 };
+
+export default ContactMail;
