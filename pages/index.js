@@ -59,7 +59,7 @@ export default function Home() {
                 </li>
                 <li className="d-flex mb-4 align-items-center">
                   <img src="/map-icon.png" className="img-fluid" alt="icon" className="me-3" />
-                  <h6 className="mb-0 text-normal text-black font-weight-normal">Adelaide 5000 SA</h6>
+                  <h6 className="mb-0 text-normal text-black font-weight-normal">Sydney 2000 NSW</h6>
                 </li>
                 <li className="d-flex align-items-center">
                   <img src="/clock-icon.png" className="img-fluid" alt="icon" className="me-3" />
@@ -71,7 +71,7 @@ export default function Home() {
         </Container>
       </div>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15561.388965903072!2d138.5950827249984!3d-34.922029425164226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c93b70926705%3A0x1c033657a35104f0!2sAdelaide%20SA%205000%2C%20Australia!5e0!3m2!1sen!2sin!4v1628012700751!5m2!1sen!2sin" className="gmap" allowFullScreen="" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13251.379571769554!2d151.20123719359452!3d-33.867888023613176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sSydney%20NSW%202000%2C%20Australia!5e0!3m2!1sen!2sin!4v1628519032787!5m2!1sen!2sin" className="gmap" allowFullScreen="" loading="lazy"></iframe>
       
 
     </>

@@ -238,7 +238,8 @@ button{
   padding: 40px 30px;
   position: absolute;
   color: var(--white);
-  background: rgba(0, 0, 0, 0.5);
+  /* background: #051A2C; */
+  background: rgba(5, 26, 44, 0.5);
 }
 .service-card:hover{
   z-index: 1;
@@ -249,7 +250,8 @@ button{
   visibility: visible;
 }
 .service-card:hover .service-card-overlay{
-  background-color: rgba(8, 41, 69, 0.9);
+  /* background-color: #0A3254; */
+  background-color: rgba(10, 50, 84, 0.70);
 }
 .service-popup-image{
   min-height: 280px;

@@ -3,12 +3,12 @@ mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 
 
-async const ContactMail = (req, res) => {
+async function ContactMail (req, res) {
     const body = JSON.parse(req.body);
     const message = `
-    Name: ${body.name}\r\n
-    Email: ${body.email}\r\n
-    Message: ${body.message}
+        Name: ${body.name}\r\n
+        Email: ${body.email}\r\n
+        Message: ${body.message}
     `;
 
     const data = {
