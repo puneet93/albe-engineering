@@ -1,0 +1,178 @@
+@media screen and (max-width: 1199px){
+    .home-banner{
+        padding-top: 130px;
+    }
+    h1, .h1{
+        font-size: 52px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    .btn-cta{
+        font-size: 21px;
+        min-width: 170px;
+        padding: 18px 5px 15px;
+    }
+    
+    .py-100 {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .service-card-overlay{
+        padding: 28px 18px;
+    }
+
+    .service-popup-content {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .navbar a + a {
+        margin-left: 15px !important;
+    }
+
+    h5{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    h6{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .service-card h5{
+        min-height: 70px;
+    }
+
+    .service-card-overlay{
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 18px 14px;
+    }
+
+    .btn-link{
+        font-size: 22px;
+    }
+
+    .section-title {
+        margin-bottom: 23px;
+    }
+
+    .about-image{
+        max-width: 75%;
+        display: block;
+        margin: 0 auto 85px;
+    }
+
+    .service-modal .modal-header{
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+    .navbar a + a {
+        margin-left: 0 !important;
+    }
+    .header{
+        position: fixed;
+        padding: 10px 0 !important;
+        background: radial-gradient(50% 50% at 50% 50%, #093254 0%, #041624 100%);
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    .navbar-nav{
+        margin-top: 25px;
+    }
+    .service-card p, .service-card .btn-link{
+        opacity: 1;
+        visibility: visible;
+    }
+    .service-card .service-card-overlay{
+        background-color: rgba(8, 41, 69, 0.9);
+    }
+    .service-card-overlay {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 30px 24px;
+    }
+    .service-popup-content {
+        padding: 20px;
+    }
+    .service-popup-content h3 {
+        margin-bottom: 18px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .home-banner-image {
+        margin-top: -75px;
+        max-width: 300px;
+        margin-right: 0;
+        width: 75%;
+        float: right;
+    }
+    h1, .h1 {
+        font-size: 46px;
+    }
+    .footer {
+        padding: 40px 0 20px;
+    }
+    .footer ul{
+        font-size: 18px;
+    }
+    .footer ul li {
+        margin: 0 16px;
+    }
+    .copyright{
+        font-size: 13px;
+    }
+    .section-title {
+        margin-bottom: 12px;
+    }
+    .btn-close{
+        background-color: #fff;
+    }
+    .service-cards{
+        overflow: auto;
+    }
+}   
+
+@media screen and (max-width: 575px){
+    .navbar-brand img{
+        max-width: 220px;
+    }
+    .home-banner-image{
+        margin-top: 0;
+    }
+    .about-image:before{
+        left: 20px;
+        top: 20px;
+    }
+    .about-image{
+        max-width: 88%;
+        margin-bottom: 50px;
+    }
+    .team-member p{
+        margin-bottom: 5px;
+    }
+    h1, .h1 {
+        font-size: 42px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        letter-spacing: 0.13em;
+    }
+    .footer ul li {
+        margin: 0 11px;
+    }
+}
