@@ -17,8 +17,8 @@
     }
     
     .py-100 {
-        padding-top: 65px;
-        padding-bottom: 65px;
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
 
     .service-card-overlay{
@@ -157,7 +157,7 @@
     .service-popup{
         position: fixed;
         height: auto;
-        top: 85px;
+        top: 59px;
         bottom: 0;
     }
     .navbar-toggler{
@@ -166,9 +166,24 @@
     .home-banner-overlay{
         max-width: 100%;
     }
+    .navbar-brand{
+        padding: 0;
+        max-width: 175px;
+    }
+    .navbar a.active{
+        color: var(--primary) !important;
+    }
 }   
 
 @media screen and (max-width: 575px){
+    .btn-cta {
+        font-size: 21px;
+        min-width: 150px;
+        padding: 14px 5px 11px;
+    }
+    .home-banner {
+        padding-top: 100px;
+    }
     .navbar-brand img{
         max-width: 220px;
     }
@@ -187,12 +202,21 @@
         margin-bottom: 5px;
     }
     h1, .h1 {
-        font-size: 42px;
+        font-size: 38px;
     }
     h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.13em;
     }
+}
+
+@media screen and (max-width: 479px){
+    .copyright {
+        font-size: 11px;
+    }
     .footer ul li {
-        margin: 0 11px;
+        margin: 0 7px;
+    }
+    .footer ul {
+        font-size: 17px;
     }
 }
