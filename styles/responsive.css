@@ -163,6 +163,9 @@
     .navbar-toggler{
         padding: 0;
     }
+    .home-banner-overlay{
+        max-width: 100%;
+    }
 }   
 
 @media screen and (max-width: 575px){

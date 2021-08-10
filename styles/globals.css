@@ -196,8 +196,9 @@ button{
 .home-banner-overlay{
   mix-blend-mode: screen;
   position: absolute;
+  max-width: 80%;
   height: 100%;
-  max-width: 100%;
+  width: 100%;
   z-index: -1;
   left: 0;
   top: 0;

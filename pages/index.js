@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <>
       <div className="home-banner text-white bg--gradient" id="home">
-        <Image src="/banner-overlay.png" className="home-banner-overlay" layout="fill" alt="overlay" />
+        <div className="home-banner-overlay">
+          <Image src="/banner-overlay.png" layout="fill" alt="overlay" />
+        </div>
         <Container>
           <Row className="justify-content-between align-items-center">
             <Col lg="5" md="6" className="pt-md-4 pb-md-5">
